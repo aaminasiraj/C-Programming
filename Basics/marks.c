@@ -14,16 +14,16 @@ int main(void){
     scanf("%d", &marks);
 
     
-    if( 0 <= marks < 30){
+    if( 0 <= marks && marks < 30){
         printf("Your grade is C. \n");
     }
-    else if ( 30 <= marks < 70){
+    else if ( 30 <= marks && marks < 70){
         printf("Your grade is B. \n");
     }
-    else if ( 70 <= marks < 90){
+    else if ( 70 <= marks && marks < 90){
         printf("Your grade is A. \n");
     }
-    else if ( 90 <= marks <= 100){
+    else if ( 90 <= marks && marks<= 100){
         printf("Your grade is A+. \n");
     }
     else{
