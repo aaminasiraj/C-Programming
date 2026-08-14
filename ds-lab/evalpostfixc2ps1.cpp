@@ -14,7 +14,7 @@ int evalPostfix(string exp){
             st.push(c - '0');// convert to ascii hence into int vals
         }
         else{
-            int val1 = st.top();
+            int val1 = st.top(); // top basically reads refs up the topmost elementin st.
             st.pop();
             int val2 = st.top();
             st.pop();
