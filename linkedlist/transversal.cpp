@@ -32,5 +32,9 @@ Node* convertarrtoll(int arr[], int n){
 int main(){
     int arr[]={1,2,3,4,5};
     Node* head = convertarrtoll(arr, 5);
-    cout << head->data << endl;
+    Node* temp = head;                   // putting temo at head
+    while(temp){                            // while the temp is on the node aka its not empty 
+        cout << temp->data << endl;             // we'll print the datat hat is stored in temp at that point
+        temp = temp->next;                          //
+    }
 }
